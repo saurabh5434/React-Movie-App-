@@ -1,0 +1,32 @@
+.list-inline{
+  background-color:rgba(236, 239, 243, 0.932);
+  height:40px;
+}
+.list-inline-item .styleLink{
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 10px;
+}
+#first{
+  margin-left: 10px;
+}
+
+.list-inline-item .styleLink:hover{
+  color: rgb(218, 32, 177);
+  border-color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.activeLink{
+  color:  rgb(218, 32, 177);
+  border-bottom: 2px solid  rgb(218, 32, 177);
+  padding-bottom: 5px;  
+}
+@media screen and (max-width:720px){
+  .list-inline-item .styleLink{
+    font-size: 15px;
+    margin-right:5px;
+    margin-bottom: 0;
+  }
+}
